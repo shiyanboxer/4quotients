@@ -1,0 +1,5 @@
+.container {
+    max-width: 1200px; /* Adjust max-width as needed */
+    margin: 0 auto; /* Center the container horizontally */
+    padding: 50px; /* Add padding inside the container */
+  }
