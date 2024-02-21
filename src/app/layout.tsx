@@ -1,9 +1,7 @@
-import '@radix-ui/themes/styles.css';
-import { Theme, ThemePanel } from '@radix-ui/themes';
 import { Inter } from "next/font/google";
 import styles from './styles.module.css'
 import Footer from '@/components/footer';
-import Navigation from '@/components/nav';
+import Navigation from '@/components/navigation';
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -22,13 +20,13 @@ export default function RootLayout({
         <title>{metadata.title}</title>
         <meta name="description" content={metadata.description} />
         <body className={inter.className}>
-        <Theme appearance="light" accentColor="blue" radius="large" scaling="110%">
-          <div className={styles.container}>
+        <div className={styles.background}>
+          <div className={styles.site_margin}>
             <Navigation />
             {children}
             <Footer />
             </div>
-        </Theme>
+            </div>
         </body>
     </html>
   );
