@@ -129,7 +129,7 @@ function Navigation() {
 
           <Box sx={{ flexGrow: 0 }}>
               <Button 
-                sx={{ my: 2, color: 'black', display: 'block', margin: '10px'}}
+                sx={{ my: 2, color: 'black', display: 'block', backgroundColor: '#D4FAFE'}}
                 href={links['Quiz']} 
               >
                 <Typography>Take the Quiz</Typography>

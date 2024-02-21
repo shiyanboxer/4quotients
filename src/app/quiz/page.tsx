@@ -1,3 +1,9 @@
-export default function Page() {
-    return <h1>Hello, Quiz Page!</h1>
-}
+export default function Quiz() {
+    return (
+      <>
+          <h1>To know the causes of your past lives, look at your current circumstances.
+To know the consequences of your future lives, look at your current actions</h1>
+      </>
+    );
+  }
+  

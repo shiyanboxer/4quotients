@@ -10,3 +10,8 @@
     margin: 0 auto;
     padding: 50px;
   }
+
+.page_margin {
+  padding-block: 100px;
+  text-align: center;
+}

@@ -3,10 +3,10 @@ import styles from './styles.module.css'
 import Footer from '@/components/footer';
 import Navigation from '@/components/navigation';
 
-const inter = Inter({ subsets: ["latin"] });
+// const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "4 Quotients",
+  title: "4Q Quiz",
   description: "4 quotient self reflection quiz",
 };
 
@@ -19,11 +19,13 @@ export default function RootLayout({
     <html lang="en">
         <title>{metadata.title}</title>
         <meta name="description" content={metadata.description} />
-        <body className={inter.className}>
+        <body>
         <div className={styles.background}>
           <div className={styles.site_margin}>
             <Navigation />
+            <div className={styles.page_margin}>
             {children}
+            </div>
             <Footer />
             </div>
             </div>
